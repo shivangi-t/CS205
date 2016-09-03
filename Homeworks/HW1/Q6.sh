@@ -1,0 +1,1 @@
+for f in *.*; do (dir="${f%.*}"; mkdir "$dir"; mv "$f" "$dir"); done
