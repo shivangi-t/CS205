@@ -9,7 +9,7 @@ object Q1 {
     println("The factorial is " + factorial(n))
   }
 
-  def factorial(n: Int): Int = n match {
+  def factorial(n: Int): BigInt = n match {
     case 0 => 1
     case _ => n * factorial(n - 1) //recursive call to factorial function for previous number
   }
